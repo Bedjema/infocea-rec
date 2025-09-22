@@ -7883,7 +7883,7 @@ html[dir='rtl'] #header .tip-light:before {
   border-right-color: transparent !important;
 }
 #header .header-btn-collapse-nav {
-  background: #e9d448;
+  background: #f89f44;
 }
 @media (min-width: 992px) {
   #header .header-nav-main nav > ul > li > a {
@@ -10108,6 +10108,10 @@ section.page-header.custom-product {
   .col-half-section {
     max-width: 100%;
   }
+  html.side-panel.side-panel-open .side-panel-wrapper {
+    width: 100% !important;
+	padding: 25px 15px !important;
+}
 }
 .content-grid {
   overflow: hidden;
@@ -16565,6 +16569,7 @@ html.dark .text-muted {
   border-left: 0 !important;
 }
 @media (min-width: 576px) {
+
   .border-sm {
     border: 1px solid #e7e7e7 !important;
   }
